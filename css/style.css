@@ -1,0 +1,241 @@
+body{
+}
+#header-content{
+	/*height: 400px;*/
+	background-color: #290000;
+	border-top: 15px solid green;
+}
+
+#cards-section{
+	height: auto;
+	background-color: #660000;
+}
+#navbar-menu{
+	font-size: 24px;
+	
+}
+#navbar-menu ul li a {
+    margin-left: 15px;
+    color: #fff;
+    font-family: Georgia;
+    font-weight: 10px;s
+}
+#navbar-menu ul li a:hover{
+    color: #fff;
+	cursor: pointer;
+	display: block;
+	background-color: #76c38f;
+	border-radius: 5px;
+}
+#navbarNav ul{
+  /*padding-left: 160px;*/
+}
+.logo-style{
+	padding-top:10px; 
+    font-family: Georgia;
+	color:#fff;
+}
+.logo-style p{
+	font-size: 10px;
+}
+.logo-style span{
+	font-size: 24px;
+}
+#cards{
+	background-color: #fff;
+	height: 330px;
+	width:227px;
+	margin-top: 60px;
+	position: relative;
+}
+
+#cards:hover{
+	background-color: #76c38f;
+	color:#fff;
+}
+#cards:hover .rectanglular-box{
+	background-color: #fff;
+}
+#cards:hover .rectanglular-box p{
+	color: black;
+}
+#cards .rectanglular-box{
+    width: 130px;
+	height: 132px;
+	background-color: #333333;
+	position: absolute;
+	top:20px;
+	left: 50px;
+}
+#cards .rectanglular-box p{
+	color: #fff;
+	font-size: 16px;
+	padding:55px 27px;
+}
+#cards .services-title{
+	position: absolute;
+    top: 160px;
+    left: 25px;
+    
+}
+
+#cards .services-title h3{
+	font-size: 35px;
+	font-family: Geogia;
+	  font-weight: 530;
+}
+#work-card-box{
+	width: 275px;
+	height: 205px;
+	border: 5px solid #fff;
+}
+#work-card-box:hover{
+	border:5px solid green;
+}
+#work-card-box .card-head{
+	height: 150px;
+	background-color: #353535;
+	position: relative;
+}
+#work-card-box .card-foot{
+   height: 44px;
+   background-color: #151515;
+}
+#work-card-box .card-foot p{
+	color: #fff;
+	padding-top: 10px;
+}
+#work-card-box .card-head p{
+     font-size: 16px;
+     color: #fff;
+     position: absolute;
+     top: 60px;
+     left: 90px;
+}
+.title {
+position:relative;
+}
+.title:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    top: 17px;
+    background: #303030;
+    left: 0;
+    z-index: -1;
+}
+.title span{
+	background-color: #303030;
+	color:#fff;
+}
+#drawline-title .line-title {
+position:relative;
+}
+#drawline-title .line-title:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    top: 17px;
+    background: green;
+    left: 0;
+    z-index: ;
+}
+#drawline-title .line-title span{
+	background-color: #303030;
+	color:#fff;
+	z-index: 2;
+    position: relative;
+}
+#footer-top{
+	background-color: #303030;
+}
+#footer-top #footer-content h4,h6{
+	color:#979797;
+}
+#footer-top #footer-content * p{
+	color:#979797;
+}
+ul#footer-menu{
+	margin: 0;
+    padding: 0;
+}
+ul#footer-menu li{
+	list-style-type: none;
+	padding-top: 10px;
+}
+ul#footer-menu li:before{
+	content:">";
+}
+ul#footer-menu li a{
+	text-decoration: none;
+	color:#76c38f;
+	font-size: 18px;
+}
+#footer-bottom{
+	background-color: #2b2b2b;
+}
+#footer-bottom p{
+	font-size: 16px;
+	color:#979797;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background: #fff;
+}
+@media (max-width: 982px){
+	nav#navbarNav {
+    float: right;
+}
+}
+@media (max-width: 767px){
+	#work-card #work-card-box.card-styling{
+             margin-left: 15px;
+	}
+}
+@media (max-width: 575px){
+	#cards {
+    background-color: #fff;
+    height: 330px;
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    /*text-align: center;*/
+}
+#cards .rectanglular-box {
+    width: 100%;
+    height: 132px;
+    background-color: #333333;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+#work-card-box {
+	width: 100%;
+    height: 205px;
+    border: 5px solid #fff;
+    margin-top: 10px;
+}
+#work-card-box .card-head {
+    height: 150px;
+    background-color: #353535; 
+}
+#work-card-box .card-head p {
+    font-size: 16px;
+    color: #fff;
+}
+#work-card #work-card-box.card-styling {
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+nav#navbarNav {
+    float: right;
+}
+#navbar-menu {
+    font-size: 24px;
+    padding-top: 0px;
+}
+}
